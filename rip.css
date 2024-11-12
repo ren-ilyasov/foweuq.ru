@@ -1,0 +1,299 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: #B8ED01; /* Цвет фона хедера */
+    padding: 20px; /* Отступы внутри хедера */
+    text-align: center; /* Выравнивание текста по центру */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+header:hover {
+    background-color: #A8D700; /* Цвет фона при наведении */
+}
+
+h1 {
+    color: black; /* Цвет текста */
+    margin: 0; /* Убираем отступы у заголовка */
+}
+
+h2 {
+    color: black; /* Цвет текста */
+    margin: 0; /* Убираем отступы у заголовка */
+    text-align: center;
+}
+
+main {
+    flex: 1; /* Это позволит основному контенту занимать оставшееся пространство */
+}
+
+
+
+
+
+.news-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.news-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.news-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+.news-date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+label {
+  
+        display: block; /* Сделать label блочным элементом для лучшего выравнивания */
+        margin: 10px 0; /* Отступы сверху и снизу */
+        font-size: 16px; /* Размер шрифта */
+        color: #ffffff; /* Цвет текста */
+        font-weight: bold; /* Жирный текст */
+
+    
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none; /* Убираем обводку */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #B8ED01;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #96bd06;
+}
+
+
+
+
+
+
+
+
+/* Основные стили для body */
+body {
+    font-family: Helvetica;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Стили заголовков */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1em;
+    color: #2c3e50;
+}
+
+/* Стили для абзацев */
+p {
+    margin-bottom: 1em;
+}
+
+/* Стили для ссылок */
+a  {
+    display: inline-block;
+    background: #B8ED01; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    padding: 10px 15px; /* Внутренние отступы */
+    border-radius: 5px; /* Закругленные углы */
+    margin: 5px; /* Отступ между ссылками */
+
+}
+
+a:hover {
+    background: #96bd06; /* Цвет фона при наведении */
+}
+/* Стили для контейнеров */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Стили для списков */
+ul, ol {
+    margin-bottom: 1em;
+    padding-left: 20px;
+}
+/* Основные стили для формы регистрации */
+.registration-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для заголовка формы */
+.registration-form h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Стили для полей ввода */
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type="password"]:focus {
+    border-color: #B8ED01;
+    outline: none;
+}
+
+
+/* Стили для сообщений об ошибках */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+       
+
+
+
+.registration-link {
+    margin-top: 20px; /* Добавим отступ сверху */
+    font-size: 16px; /* Размер шрифта */
+}
+
+.registration-link a {
+    color: #B8ED01; /* Цвет ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт для ссылки */
+}
+
+.registration-link a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+    color: #B8ED01; /* Цвет ссылки при наведении */
+}
+
+
+
+
+
+form {
+    background: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Ограничиваем максимальную ширину формы */
+    margin: 0 auto; /* Центрируем форму в родительском элементе */
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    background: #B8ED01;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #96bd06;
+
+}
+
+
+
+.containerr {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #5cb85c;
+    color: white;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.change-status {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+
+
+
